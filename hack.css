@@ -1,5 +1,5 @@
 body{
-  background-image: url(/texture/8.png);
+  background-image: url(/img/grid.png);
   font-family: Pompiere;
   color: white;
 }
@@ -7,6 +7,11 @@ body{
 h1, h2, h3, h4, h5, h6 {
   font-family:'FFF';
   font-weight: normal;
+}
+
+.carousel h1{
+  font-family: GFS Bodoni;
+  font-weight: bold;
 }
 
 .carousel-caption{
