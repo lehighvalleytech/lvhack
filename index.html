@@ -109,7 +109,7 @@
     <div class="container marketing">
       <section id='about'>
         <div class="featurette">
-          <img class="featurette-image pull-left img-polaroid" src="/img/hack12.jpg">
+          <img class="featurette-image pull-left img-polaroid" src="./img/hack12.jpg">
           <h2 class="featurette-heading">One amazing weekend <span class="muted">to build exciting, interesting, and innovative things.</span></h2>
           <p class="lead">You supply the ideas, create teams, and bring a laptop. We'll supply a great venue, good food, and an incredibly fun time.</p>
           <a class="btn btn-large btn-primary" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
@@ -122,7 +122,7 @@
       <!-- Boom! Venue info -->
       <section id='venue'>
         <div class="featurette">
-          <img class="featurette-image pull-right" src="/img/ncc.png">
+          <img class="featurette-image pull-right" src="./img/ncc.png">
           <h2 class="featurette-heading">Like laser cutters? <span class="muted">You'll love #LVHack.</span></h2>
           <p class="lead">A big thank you to Northampton Community College for hosting us this year.</p>
           <p>Sure it overlooks the Steel Stacks, but it's more than just a great view. The NCC South Campus provides access to the FabLab - filled with all kinds of prototyping goodness.</p>
@@ -156,7 +156,7 @@
         <div ng-repeat="level in hack.sponsors" class="row"">
           <h1 class="text-center" ng-show="level.members">{{level.title}}</h1>
           <div ng-repeat="sponsor in level.members" class="span{{level.span}}">
-            <a href="{{sponsor.url}}"><img src="{{sponsor.logo}}" /></a>
+            <a href="{{sponsor.url}}"><img src=".{{sponsor.logo}}" /></a>
           </div>
           
         </div>
