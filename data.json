@@ -1,0 +1,127 @@
+{
+    "hack": {
+        "info": {
+            "dates": "April 5th - 7th"
+        },
+        "schedule": [
+            {
+                "day": "Friday",
+                "timeline": [
+                    {
+                        "when": "6:30",
+                        "what": "Registration"
+                    },
+                    {
+                        "when": "7:00",
+                        "what": "Welcome"
+                    },
+                    {
+                        "when": "7:10",
+                        "what": "Keynote"
+                    },
+                    {
+                        "when": "7:30",
+                        "what": "Platforms"
+                    },
+                    {
+                        "when": "8:00",
+                        "what": "Ideas"
+                    },
+                    {
+                        "when": "8:30",
+                        "what": "Team Building"
+                    },
+                    {
+                        "when": "10:00",
+                        "what": "Hack Clock Starts"
+                    }
+                ]
+            },
+            {
+                "day": "Saturday",
+                "timeline": [
+                    {
+                        "when": "9:30",
+                        "what": "Breakfast"
+                    },
+                    {
+                        "when": "12:00",
+                        "what": "Lunch"
+                    },
+                    {
+                        "when": "6:00",
+                        "what": "Dinner"
+                    }
+                ]
+            },
+            {
+                "day": "Sunday",
+                "timeline": [
+                    {
+                        "when": "10:30",
+                        "what": "Breakfast"
+                    },
+                    {
+                        "when": "2:00",
+                        "what": "Lunch"
+                    },
+                    {
+                        "when": "5:00",
+                        "what": "Presentations"
+                    },
+                    {
+                        "when": "6:00",
+                        "what": "After Party"
+                    },
+                    {
+                        "when": "7:00",
+                        "what": "Hacker Prizes"
+                    }
+                ]
+            }
+        ],
+        "sponsors": [
+            {
+                "title": "Partner",
+                "span": 4,
+                "members": [
+                    {
+                        "title": "LVTech",
+                        "url": "http://lehighvalleytech.org",
+                        "logo": "/logos/lvtech.png"
+                    }
+                ]
+            },
+            {
+                "title": "Premire",
+                "span": 4
+            },
+            {
+                "title": "Promoter",
+                "span": 4
+            },
+            {
+                "title": "Platform",
+                "span": 3,
+                "members": [
+                    {
+                        "title": "Nexmo",
+                        "url": "http://nexmo.com",
+                        "logo": "/logos/nexmo.png"
+                    }
+                ]
+            },
+            {
+                "title": "Prize",
+                "span": 2,
+                "members": [
+                    {
+                        "title": "GitHub",
+                        "url": "http://github.com",
+                        "logo": "/logos/github.png"
+                    }
+                ]
+            }
+        ]
+    }
+}
