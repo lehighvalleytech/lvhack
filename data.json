@@ -86,7 +86,7 @@
         "sponsors": [
             {
                 "title": "Partner",
-                "span": 4,
+                "span": 6,
                 "members": [
                     {
                         "title": "LVTech",
@@ -101,7 +101,14 @@
             },
             {
                 "title": "Promoter",
-                "span": 4
+                "span": 4,
+                "members": [
+                    {
+                        "title": "iNetU",
+                        "url": "http://www.inetu.net/",
+                        "logo": "/logos/inetu.png"
+                    }
+                ]                
             },
             {
                 "title": "Platform",
