@@ -110,7 +110,7 @@
           <img class="pull-left img-polaroid" src="./img/hack12.jpg">
           <h2 class="lvt-grey">One amazing weekend to build <span class='lvt-orange'>exciting, interesting, and innovative</span> things.</h2>
           <p>You supply the ideas, create teams, and bring a laptop. <br/> We'll supply a great venue, good food, and an incredibly fun time.</p>
-          <a class="btn btn-large btn-primary" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
+          <a class="btn btn-large btn-primary" target="_blank" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
         </section>
       </div>
     </div>    
@@ -124,7 +124,7 @@
           <p>A big thank you to Northampton Community College for hosting us this year.</p>
           <p>Sure it overlooks the Steel Stacks, but it's more than just a great view. The NCC South Campus provides access to the FabLab - filled with all kinds of prototyping goodness.</p>
           <p>And once the HackClock starts - you won't have to leave.</p>
-          <a class="btn btn-large btn-primary" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
+          <a class="btn btn-large btn-primary" target="_blank" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
         </section>
       </div>
     </div>
@@ -146,7 +146,7 @@
     <section id="sponsors" class="text-center container marketing">
       <div ng-repeat="level in hack.sponsors" class="row" style="margin-top: 20px">
         <div ng-repeat="sponsor in level.members" class="span{{level.span}}">
-          <a href="{{sponsor.url}}"><img src=".{{sponsor.logo}}" /></a>
+          <a href="{{sponsor.url}}" target="_blank"><img src=".{{sponsor.logo}}" /></a>
         </div>
         
       </div>
