@@ -132,12 +132,11 @@
     <div class="black">
       <!-- The schedule thing -->
       <section id='schedule' class="container marketing">
-        <h2 class="text-center">April 5th - 7th</h1>
         <div class="row">
           <div ng-repeat="schedule in hack.schedule" class="span4">
             <h2>{{schedule.day}}</h2>
             <ul class="unstyled">
-              <li ng-repeat="detail in schedule.timeline">{{detail.when}} {{detail.what}}</li>
+              <li ng-repeat="detail in schedule.timeline">{{detail.when}} - {{detail.what}}</li>
             </ul>
           </div>
         </div><!-- /.row -->
