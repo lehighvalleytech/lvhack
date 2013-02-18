@@ -1,16 +1,86 @@
 body{
-  font-family: Pompiere;
+  background-image: url(./img/grid-old.png);
 }
 
-h1, h2, h3, h4, h5, h6 {
+.lvt-grey {
+  color: #59554A
+}
+
+.lvt-orange {
+  color: #F2921D;
+}
+
+.lvt-yellow {
+  color: #F2BE22;
+}
+
+.lvt-green {
+  color: #ACBF17;
+}
+
+.lvt-white {
+  color: #F2F2F2;
+}
+
+.hand{
   font-family:'FFF';
   font-weight: normal;
 }
 
-.carousel h1{
-  font-family: GFS Bodoni;
-  font-weight: bold;
+.note{
+  font-family:'Pompiere';
+  font-weight: normal;
 }
 
-.carousel-caption{
+.white, .blue, .black {
+  background-image: url(./img/grid-white.png);
+  line-height: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.blue {
+  background-image: url(./img/grid-blue.png);
+  color: white;
+}
+
+.black {
+  background-image: url(./img/grid-black.png);
+  color: white;
+}
+
+.white h2, .blue h2, .black h2 {
+  font-family:'FFF';
+  font-weight: normal;
+  font-size: 45px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  line-height: 60px;
+}
+
+.black h2 {
+  font-family:'Pompiere';
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.black li {
+  font-family:'Pompiere';
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.white p, .blue p, .black p {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-family:'Pompiere';
+  font-weight: normal;
+  font-size: 30px;  
+}
+
+.white .pull-left {
+  margin-right: 25px;
+  margin-top: -40px;
 }

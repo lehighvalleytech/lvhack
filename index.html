@@ -100,43 +100,39 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div><!-- /.carousel -->
-
-
-
+    
     <!-- Manipulative text geared toward making people like us
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="container marketing">
-      <section id='about'>
-        <div class="featurette">
-          <img class="featurette-image pull-left img-polaroid" src="./img/hack12.jpg">
-          <h2 class="featurette-heading">One amazing weekend <span class="muted">to build exciting, interesting, and innovative things.</span></h2>
-          <p class="lead">You supply the ideas, create teams, and bring a laptop. We'll supply a great venue, good food, and an incredibly fun time.</p>
+    <div class="white">
+      <div class="container marketing">
+        <section id='about'>
+          <img class="pull-left img-polaroid" src="./img/hack12.jpg">
+          <h2 class="lvt-grey">One amazing weekend to build <span class='lvt-orange'>exciting, interesting, and innovative</span> things.</h2>
+          <p>You supply the ideas, create teams, and bring a laptop. <br/> We'll supply a great venue, good food, and an incredibly fun time.</p>
           <a class="btn btn-large btn-primary" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
+        </section>
+      </div>
+    </div>    
 
-        </div>
-      </section>
-
-      <hr class="featurette-divider">
-
+    <div class="blue">
+      <div class="container marketing">
       <!-- Boom! Venue info -->
-      <section id='venue'>
-        <div class="featurette">
-          <img class="featurette-image pull-right" src="./img/ncc.png">
-          <h2 class="featurette-heading">Like laser cutters? <span class="muted">You'll love #LVHack.</span></h2>
-          <p class="lead">A big thank you to Northampton Community College for hosting us this year.</p>
+        <section id='venue'>
+          <img class="pull-right" src="./img/ncc.png">
+          <h2 class="lvt-white">Like <span class="lvt-yellow">laser</span> cutters?<br />You'll love #LVHack.</h2>
+          <p>A big thank you to Northampton Community College for hosting us this year.</p>
           <p>Sure it overlooks the Steel Stacks, but it's more than just a great view. The NCC South Campus provides access to the FabLab - filled with all kinds of prototyping goodness.</p>
           <p>And once the HackClock starts - you won't have to leave.</p>
           <a class="btn btn-large btn-primary" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
-          
-        </div>
-      </section>
+        </section>
+      </div>
+    </div>
 
-      <hr class="featurette-divider">
-
+    <div class="black">
       <!-- The schedule thing -->
-      <section id='schedule'>
-        <h1 class="text-center">April 5th - 7th</h1>
+      <section id='schedule' class="container marketing">
+        <h2 class="text-center">April 5th - 7th</h1>
         <div class="row">
           <div ng-repeat="schedule in hack.schedule" class="span4">
             <h2>{{schedule.day}}</h2>
@@ -146,33 +142,18 @@
           </div>
         </div><!-- /.row -->
       </section>        
+    </div>
 
-      <hr class="featurette-divider">
-
-      <section id="sponsors" class="text-center">
-        <h2 class="featurette-heading">Our Sponsors. <span class="muted">Are Amazing.</span></h2>
-        
-        <p class="lead">Our sponsors make this event possible.</p>
-        <div ng-repeat="level in hack.sponsors" class="row"">
-          <h1 class="text-center" ng-show="level.members">{{level.title}}</h1>
-          <div ng-repeat="sponsor in level.members" class="span{{level.span}}">
-            <a href="{{sponsor.url}}"><img src=".{{sponsor.logo}}" /></a>
-          </div>
-          
+    <section id="sponsors" class="text-center container marketing">
+      <div ng-repeat="level in hack.sponsors" class="row" style="margin-top: 20px">
+        <div ng-repeat="sponsor in level.members" class="span{{level.span}}">
+          <a href="{{sponsor.url}}"><img src=".{{sponsor.logo}}" /></a>
         </div>
         
+      </div>
+      
 
-      </section>
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
+    </section>
 
     <!-- Le javascript
     ================================================== -->
