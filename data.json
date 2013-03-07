@@ -118,6 +118,16 @@
                         "title": "Nexmo",
                         "url": "http://nexmo.com",
                         "logo": "/logos/nexmo.png"
+                    },
+                    {
+                        "title": "Squareknot",
+                        "url": "http://squareknot.com/",
+                        "logo": "/logos/squareknot.png"
+                    },
+                    {
+                        "title": "Artisan",
+                        "url": "http://getartisan.com/",
+                        "logo": "/logos/artisan.png"
                     }
                 ]
             },
