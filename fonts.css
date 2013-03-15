@@ -1,4 +1,11 @@
 @font-face {
+    font-family:'Homestead';
+    font-style:normal;
+    font-weight:normal;
+    src: url('fonts/Homestead-Display.ttf') format('truetype');
+ 
+}
+@font-face {
     font-family:'FFF';
     font-style:normal;
     font-weight:normal;

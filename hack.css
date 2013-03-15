@@ -22,16 +22,6 @@ body{
   color: #F2F2F2;
 }
 
-.hand{
-  font-family:'FFF';
-  font-weight: normal;
-}
-
-.note{
-  font-family:'Pompiere';
-  font-weight: normal;
-}
-
 .white, .blue, .black {
   background-image: url(./img/grid-white.png);
   line-height: 40px;

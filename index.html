@@ -145,14 +145,19 @@
 
     <section id="sponsors" class="text-center container marketing">
       
-      <div ng-repeat="level in hack.sponsors" class="row" style="margin-top: 20px">
-        <div ng-repeat="sponsor in level.members" class="span{{level.span}}">
-          <a href="{{sponsor.url}}" target="_blank"><img src=".{{sponsor.logo}}" /></a>
+      <div ng-repeat="level in hack.sponsors" class="row" style="margin-top: 20px;">
+        <h2 class="span12" ng-show="level.members">{{level.title}}</h2>
+        <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="span{{level.span}} {{offset(index, level.members.length, level.span)}}" >
+          <a href="{{sponsor.url}}" target="_blank"><img style="max-height: 100%;" src=".{{sponsor.logo}}" /></a>
         </div>
       </div>
-      <a class="btn btn-inverse" target="_blank" href="https://docs.google.com/document/d/1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ/export?format=pdf&id=1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ&token=AC4w5Vge2gx2wD6yapZroV6IbKM2TwYSUQ%3A1362715128072">Become a Sponsor <i class="icon-download icon-white"></i></a>      
-      <a class="btn btn-warning" target="_blank" href="https://www.dropbox.com/s/n6d6y81gk3zjebi/8.5x11.pdf?dl=1">Letter Sized Poster <i class="icon-download icon-white"></i></a>      
-      <a class="btn btn-warning" target="_blank" href="https://www.dropbox.com/s/84vymc6w0hoxcjt/11x17.pdf?dl=1">11x17 Poster <i class="icon-download icon-white"></i></a>      
+      <div class="row" style="margin-top: 10px;">
+        <div class="span12">
+          <a class="btn btn-inverse" target="_blank" href="https://docs.google.com/document/d/1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ/export?format=pdf&id=1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ&token=AC4w5Vge2gx2wD6yapZroV6IbKM2TwYSUQ%3A1362715128072">Become a Sponsor <i class="icon-download icon-white"></i></a>      
+          <a class="btn btn-warning" target="_blank" href="https://www.dropbox.com/s/n6d6y81gk3zjebi/8.5x11.pdf?dl=1">Letter Sized Poster <i class="icon-download icon-white"></i></a>      
+          <a class="btn btn-warning" target="_blank" href="https://www.dropbox.com/s/84vymc6w0hoxcjt/11x17.pdf?dl=1">11x17 Poster <i class="icon-download icon-white"></i></a>      
+        </div>
+      </div>
 
     </section>
 

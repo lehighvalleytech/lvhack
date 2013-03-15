@@ -87,6 +87,7 @@
             {
                 "title": "Partner",
                 "span": 6,
+                "height": "150px",
                 "members": [
                     {
                         "title": "LVTech",
@@ -97,11 +98,13 @@
             },
             {
                 "title": "Premire",
+                "height": "150px",
                 "span": 4
             },
             {
                 "title": "Promoter",
                 "span": 4,
+                "height": "150px",
                 "members": [
                     {
                         "title": "iNetU",
@@ -113,6 +116,7 @@
             {
                 "title": "Platform",
                 "span": 3,
+                "height": "100px",
                 "members": [
                     {
                         "title": "Nexmo",
@@ -128,17 +132,50 @@
                         "title": "Artisan",
                         "url": "http://useartisan.com/",
                         "logo": "/logos/artisan.png"
-                    }
+                    },
+                    {
+                        "title": "MapQuest",
+                        "url": "http://developer.mapquest.com/",
+                        "logo": "/logos/mapquest.png"
+                    },
+                    {
+                        "title": "LVEDC",
+                        "url": "http://www.lehighvalley.org/",
+                        "logo": "/logos/lvedc.png"
+                    }                    
                 ]
             },
             {
                 "title": "Prize",
                 "span": 2,
+                "height": "50px",
                 "members": [
                     {
                         "title": "GitHub",
                         "url": "http://github.com",
                         "logo": "/logos/github.png"
+                    }
+                ]
+            },
+            {
+                "title": "Media",
+                "height": "50px",
+                "span": 2,
+                "members": [
+                    {
+                        "title": "NextPlex",
+                        "url": "http://nextplex.com/lehigh-valley-pa/",
+                        "logo": "/logos/nextplex.png"
+                    },
+                    {
+                        "title": "LVTRadio",
+                        "url": "http://radio.lehighvalleytech.org",
+                        "logo": "/logos/lvtradio.png"
+                    },
+                    {
+                        "title": "Philly Tech Meetup",
+                        "url": "http://www.phillytechmeetup.com/",
+                        "logo": "/logos/ptm.png"
                     }
                 ]
             }
