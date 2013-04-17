@@ -1,181 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>LVHack 2013 &middot; Lehigh Valley Tech</title>
+    <title>LVHack - June 1st, 2013 - Civic Hackathon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="./jumbo.css" rel="stylesheet">
-    <link href="./fonts.css" rel="stylesheet">
-    <link href="./hack.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
-  <body ng-controller="HackerStuff">
+  <body>
 
-
-
-    <!-- NAVBAR
-    ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">LVHack 2013</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li><a href="#about">About</a></li>
-                <li><a href="#venue">Venue</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#sponsors">Sponsors</a></li>
-                <li><a href="{{hack.ticket.url}}">Tickets</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
-
-
-    <!-- Photos and stuff...
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="./slide-01.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>The Valley's First</h1>
-              <p class="lead">Last April: The first Hackathon in the Lehigh Valley is a remarkable success. Great teams, great ideas. And quadcopters.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="./slide-02.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Startup Weekend</h1>
-              <p class="lead">In the fall: 12 teams form and compete in Startup Weekend Lehigh Valley. Three teams produced physical products.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="./slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Now: LVHack 2013</h1>
-              <p class="lead">This year: Developer, hacker, entrepreneur, or maker.<br/> We're ready for you.</p>
-            </div>
+    <div class="container-narrow">
+      <div class="jumbotron">
+        <h1>Civic Hackathon</h1>
+        <h2>June 1st & 2nd - LVHack Summer '13</h2>
+        <p class="lead">
+            Be a part of the first Civic Hackathon in the Lehigh Valley. 
+            <br/>
+            Tackle problems that affect a community.
+            <br/>
+            See the impact a hack can make. 
+        </p>
+      </div>
+      <hr />
+      <div class="row-fluid marketing">
+        <div class="span9 offset3">
+          <h4>Sign up for more information:</h4>
+          <div id="sendgrid">
+            <script type="text/javascript" src="http://sendgrid.com/newsletter/getSubscriptionWidget?p=jUOCjws0YlhTBuu7JbevxwiSkQYlUw7Y5KZZhUHAMbizsRLHDZCQmNfQuPcKgKMkpaEcCYY9ourRP4VTqfdrUw%3D%3D"> </script>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
-    
-    <!-- Manipulative text geared toward making people like us
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="white">
-      <div class="container marketing">
-        <section id='about'>
-          <img class="pull-left img-polaroid" src="./img/hack12.jpg">
-          <h2 class="lvt-grey">One amazing weekend to build <span class='lvt-orange'>exciting, interesting, and innovative</span> things.</h2>
-          <p>You supply the ideas, create teams, and bring a laptop. <br/> We'll supply a great venue, good food, and an incredibly fun time.</p>
-          <a class="btn btn-large btn-primary" target="_blank" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
-        </section>
-      </div>
-    </div>    
-
-    <div class="blue">
-      <div class="container marketing">
-      <!-- Boom! Venue info -->
-        <section id='venue'>
-          <img class="pull-right" src="./img/ncc.png">
-          <h2 class="lvt-white">Like <span class="lvt-yellow">laser</span> cutters?<br />You'll love #LVHack.</h2>
-          <p>A big thank you to Northampton Community College for hosting us this year.</p>
-          <p>Sure it overlooks the Steel Stacks, but it's more than just a great view. The NCC South Campus provides access to the FabLab - filled with all kinds of prototyping goodness.</p>
-          <p>And once the HackClock starts - you won't have to leave.</p>
-          <a class="btn btn-large btn-primary" target="_blank" href="{{hack.ticket.url}}">Get Your Ticket Now &gt; &gt;</a>
-        </section>
-      </div>
-    </div>
-
-    <div class="black">
-      <!-- The schedule thing -->
-      <section id='schedule' class="container marketing">
-        <div class="row">
-          <div ng-repeat="schedule in hack.schedule" class="span4">
-            <h2>{{schedule.day}}</h2>
-            <ul class="unstyled">
-              <li ng-repeat="detail in schedule.timeline">{{detail.when}} - {{detail.what}}</li>
-            </ul>
-          </div>
-        </div><!-- /.row -->
-      </section>        
-    </div>
-
-    <section id="sponsors" class="text-center container marketing">
-      
-      <div ng-repeat="level in hack.sponsors" class="row" style="margin-top: 20px;">
-        <h2 class="span12" ng-show="level.members">{{level.title}}</h2>
-        <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="span{{level.span}} {{offset(index, level.members.length, level.span)}}" >
-          <a href="{{sponsor.url}}" target="_blank"><img style="max-height: 100%;" src=".{{sponsor.logo}}" /></a>
-        </div>
-      </div>
-      <div class="row" style="margin-top: 10px;">
-        <div class="span12">
-          <a class="btn btn-inverse" target="_blank" href="https://docs.google.com/document/d/1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ/export?format=pdf&id=1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ&token=AC4w5Vge2gx2wD6yapZroV6IbKM2TwYSUQ%3A1362715128072">Become a Sponsor <i class="icon-download icon-white"></i></a>      
-          <a class="btn btn-warning" target="_blank" href="https://www.dropbox.com/s/n6d6y81gk3zjebi/8.5x11.pdf?dl=1">Letter Sized Poster <i class="icon-download icon-white"></i></a>      
-          <a class="btn btn-warning" target="_blank" href="https://www.dropbox.com/s/84vymc6w0hoxcjt/11x17.pdf?dl=1">11x17 Poster <i class="icon-download icon-white"></i></a>      
-        </div>
+      <hr />
+      <div class="footer">
+        <p><a href="http://lehighvalleytech.org"><img src="/logos/lvtech.png" /></a></p>
       </div>
 
-    </section>
+    </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>    
-    <script src="./app.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>    
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
+      $(document).ready(function(){
+    	  $('.SG_widget_form_submit').addClass('btn btn-success');
+      });
     </script>
-    <script src="./bootstrap/js/holder.js"></script>
   </body>
 </html>
