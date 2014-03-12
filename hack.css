@@ -1,5 +1,5 @@
 body{
-  background-image: url(./img/grid-old.png);
+
 }
 
 .lvt-grey {
@@ -23,15 +23,14 @@ body{
 }
 
 .white, .blue, .black {
-  background-image: url(./img/grid-white.png);
+	background-color: #f2f2f2;
   line-height: 40px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 .blue {
-  background-image: url(./img/grid-blue.png);
-  color: white;
+  background-color: #7da2c8;
 }
 
 .black {
@@ -40,7 +39,7 @@ body{
 }
 
 .white h2, .blue h2, .black h2 {
-  font-family:'FFF';
+  font-family:'Homestead';
   font-weight: normal;
   font-size: 45px;
   margin: 0px;
@@ -50,7 +49,7 @@ body{
 }
 
 .black h2 {
-  font-family:'Pompiere';
+  font-family:'Helvetica';
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -65,9 +64,9 @@ body{
 .white p, .blue p, .black p {
   margin: 0px;
   margin-bottom: 20px;
-  font-family:'Pompiere';
+  font-family:'Helvetica';
   font-weight: normal;
-  font-size: 30px;  
+  font-size: 19px;  
 }
 
 .white .pull-left {
