@@ -1,14 +1,14 @@
 {
     "hack": {
         "ticket" :{
-            "url": "http://lvhack2013.eventbrite.com/"
+            "url": "http://www.eventbrite.com/e/lvhack-2014-tickets-5749663398"
         },
         "info": {
-            "dates": "April 5th - 7th"
+            "dates": "April 11th - 13th"
         },
         "schedule": [
             {
-                "day": "Friday, April 5th",
+                "day": "Friday, April 11th",
                 "timeline": [
                     {
                         "when": "6:30 PM",
@@ -41,7 +41,7 @@
                 ]
             },
             {
-                "day": "Saturday, April 6th",
+                "day": "Saturday, April 12th",
                 "timeline": [
                     {
                         "when": "9:30 AM",
@@ -58,7 +58,7 @@
                 ]
             },
             {
-                "day": "Sunday, April 7th",
+                "day": "Sunday, April 13th",
                 "timeline": [
                     {
                         "when": "10:30 AM",
@@ -69,15 +69,15 @@
                         "what": "Lunch"
                     },
                     {
-                        "when": "5:00 PM",
+                        "when": "4:00 PM",
                         "what": "Presentations"
                     },
                     {
-                        "when": "6:00 PM",
+                        "when": "5:00 PM",
                         "what": "Hacker Prizes"
                     },
                     {
-                        "when": "7:00 PM",
+                        "when": "6:00 PM",
                         "what": "After Party"
                     }
                 ]
@@ -106,43 +106,13 @@
                 "span": 4,
                 "height": "150px",
                 "members": [
-                    {
-                        "title": "iNetU",
-                        "url": "http://www.inetu.net/",
-                        "logo": "/logos/inetu.png"
-                    }
                 ]                
             },
             {
                 "title": "Platform",
                 "span": 3,
                 "height": "100px",
-                "members": [
-                    {
-                        "title": "Nexmo",
-                        "url": "http://nexmo.com",
-                        "logo": "/logos/nexmo.png"
-                    },
-                    {
-                        "title": "Squareknot",
-                        "url": "http://squareknot.com/",
-                        "logo": "/logos/squareknot.png"
-                    },
-                    {
-                        "title": "Artisan",
-                        "url": "http://useartisan.com/",
-                        "logo": "/logos/artisan.png"
-                    },
-                    {
-                        "title": "MapQuest",
-                        "url": "http://developer.mapquest.com/",
-                        "logo": "/logos/mapquest.png"
-                    },
-                    {
-                        "title": "LVEDC",
-                        "url": "http://www.lehighvalley.org/",
-                        "logo": "/logos/lvedc.png"
-                    }                    
+                "xmembers": [
                 ]
             },
             {
@@ -150,11 +120,6 @@
                 "span": 2,
                 "height": "50px",
                 "members": [
-                    {
-                        "title": "GitHub",
-                        "url": "http://github.com",
-                        "logo": "/logos/github.png"
-                    }
                 ]
             },
             {
@@ -172,11 +137,6 @@
                         "url": "http://radio.lehighvalleytech.org",
                         "logo": "/logos/lvtradio.png"
                     },
-                    {
-                        "title": "Philly Tech Meetup",
-                        "url": "http://www.phillytechmeetup.com/",
-                        "logo": "/logos/ptm.png"
-                    }
                 ]
             }
         ]
