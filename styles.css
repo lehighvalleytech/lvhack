@@ -1,46 +1,68 @@
-.jumbotron {
-	padding: 60px;
-	margin-bottom: 30px;
-	color: inherit;
-	background-color: yellowgreen;
+#home p {
+    font-size:1.4em;
 }
 
-.left-sidebar {
-text-align: center;
-	
+iframe {
+    margin: 20px 0 20px 0;
 }
 
-.middle-content {
-
+.carousel .container {
+ 
 }
 
-.right-content {
-	
+#carousel-1 h1 {
+    color:#fff;
+    text-shadow: 0px 2px 0px black;
+    margin: 0 0 10px 0;
 }
 
-.glyphicon-star,
-.glyphicon-ok,
-.glyphicon-globe {
-	display:block;
-	font-size:6em;
-	background-color:yellowgreen;
-	width:200px;
-	height:200px;
-	padding:60px 25px 25px 25px;
-	text-align:center;
-	margin: 0 0 10px 0;
-	color:#fff;
-	border-radius:50%;
-	vertical-align: middle;
+.site-navbar .navbar-brand i,
+a  {
+    color: #F28D35;
+}
+.site-navbar .navbar-nav .active a {
+    background: #F28D35; 
+}
+.btn-danger {
+    color: #fff;
+    background-color: #F28D35;
+    border-color: #ef4a34;
 }
 
-.carousel {
-    height: 500px;
-    margin-bottom: 60px;
+.section.section-features .icon-wrap {
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+    border-radius:50px;
+    border: 1px solid :333;
 }
 
-.carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+.section.section-features .icon-wrap img {
+    border-radius:5px;
+    border: 1px solid :333;
+}
+
+#sponsors .container {
+    min-height:300px;
+    text-align: center;
+}
+
+#sponsors .container .row {
+    margin: 0 0 20px 0;
+}
+
+.section.section-our-clients a,
+.section.section-our-clients a:hover {
+    background: none;
+    display: block;
+    text-align: center;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    border:0;
+}
+
+@media (max-width: 480px) {
+    iframe {
+        width:320px;
+    }
 }
