@@ -1,0 +1,61 @@
+@font-face {
+    font-family:'Homestead';
+    font-style:normal;
+    font-weight:normal;
+    src: url('fonts/Homestead-Display.ttf') format('truetype');
+ 
+}
+@font-face {
+    font-family:'FFF';
+    font-style:normal;
+    font-weight:normal;
+    src: url('fonts/FFF_Tusj.ttf') format('truetype');
+ 
+}
+
+@font-face {
+	font-family:'Fredericka The Great';
+	font-style:normal;
+	font-weight:normal;
+	src: url('fonts/FrederickatheGreat-Regular.eot?#') format('eot'), url('fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+ 
+}
+
+@font-face {
+	font-family:'Pompiere';
+	font-style:normal;
+	font-weight:normal;
+	src: url('fonts/Pompiere-Regular.eot?#') format('eot'), url('fonts/Pompiere-Regular.ttf') format('truetype');
+ 
+}
+
+@font-face {
+	font-family:'Jose';
+	font-style:normal;
+	font-weight:normal;
+	src: url('fonts/Jose.eot?#') format('eot'), url('fonts/Jose.ttf') format('truetype');
+ 
+}
+
+@font-face {
+	font-family:'GFS Bodoni';
+	font-style:normal;
+	font-weight:normal;
+	src: url('fonts/GFSBodoni.eot?#') format('eot'), url('fonts/GFSBodoni.ttf') format('truetype');
+ 
+}
+@font-face {
+	font-family:'GFS Bodoni';
+	font-style:normal;
+	font-weight:bold;
+	src: url('fonts/GFSBodoniBold.eot?#') format('eot'), url('fonts/GFSBodoniBold.ttf') format('truetype');
+ 
+}
+@font-face {
+	font-family:'GFS Bodoni';
+	font-style:italic;
+	font-weight:normal;
+	src: url('fonts/GFSBodoniIt.eot?#') format('eot'), url('fonts/GFSBodoniIt.ttf') format('truetype');
+ 
+}
+

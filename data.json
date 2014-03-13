@@ -1,0 +1,144 @@
+{
+    "hack": {
+        "ticket" :{
+            "url": "http://www.eventbrite.com/e/lvhack-2014-tickets-5749663398"
+        },
+        "info": {
+            "dates": "April 11th - 13th"
+        },
+        "schedule": [
+            {
+                "day": "Friday, April 11th",
+                "timeline": [
+                    {
+                        "when": "6:30 PM",
+                        "what": "Registration"
+                    },
+                    {
+                        "when": "7:00 PM",
+                        "what": "Welcome"
+                    },
+                    {
+                        "when": "7:10PM",
+                        "what": "Keynote"
+                    },
+                    {
+                        "when": "7:30 PM",
+                        "what": "Platforms"
+                    },
+                    {
+                        "when": "8:00 PM",
+                        "what": "Ideas"
+                    },
+                    {
+                        "when": "8:30 PM",
+                        "what": "Team Building"
+                    },
+                    {
+                        "when": "10:00 PM",
+                        "what": "Hack Clock Starts"
+                    }
+                ]
+            },
+            {
+                "day": "Saturday, April 12th",
+                "timeline": [
+                    {
+                        "when": "9:30 AM",
+                        "what": "Breakfast"
+                    },
+                    {
+                        "when": "12:00 PM",
+                        "what": "Lunch"
+                    },
+                    {
+                        "when": "6:00 PM",
+                        "what": "Dinner"
+                    }
+                ]
+            },
+            {
+                "day": "Sunday, April 13th",
+                "timeline": [
+                    {
+                        "when": "10:30 AM",
+                        "what": "Breakfast"
+                    },
+                    {
+                        "when": "2:00 PM",
+                        "what": "Lunch"
+                    },
+                    {
+                        "when": "4:00 PM",
+                        "what": "Presentations"
+                    },
+                    {
+                        "when": "5:00 PM",
+                        "what": "Hacker Prizes"
+                    },
+                    {
+                        "when": "6:00 PM",
+                        "what": "After Party"
+                    }
+                ]
+            }
+        ],
+        "sponsors": [
+            {
+                "title": "Partner",
+                "span": 6,
+                "height": "150px",
+                "members": [
+                    {
+                        "title": "LVTech",
+                        "url": "http://lehighvalleytech.org",
+                        "logo": "/logos/lvtech.png"
+                    }
+                ]
+            },
+            {
+                "title": "Premire",
+                "height": "150px",
+                "span": 4
+            },
+            {
+                "title": "Promoter",
+                "span": 4,
+                "height": "150px",
+                "members": [
+                ]                
+            },
+            {
+                "title": "Platform",
+                "span": 3,
+                "height": "100px",
+                "xmembers": [
+                ]
+            },
+            {
+                "title": "Prize",
+                "span": 2,
+                "height": "50px",
+                "members": [
+                ]
+            },
+            {
+                "title": "Media",
+                "height": "50px",
+                "span": 2,
+                "members": [
+                    {
+                        "title": "NextPlex",
+                        "url": "http://nextplex.com/lehigh-valley-pa/",
+                        "logo": "/logos/nextplex.png"
+                    },
+                    {
+                        "title": "LVTRadio",
+                        "url": "http://radio.lehighvalleytech.org",
+                        "logo": "/logos/lvtradio.png"
+                    },
+                ]
+            }
+        ]
+    }
+}
