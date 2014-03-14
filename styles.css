@@ -61,6 +61,16 @@ a  {
     border:0;
 }
 
+.panel-primary {
+    border-color: #F28D35;
+}
+
+.panel-primary .panel-heading {
+    color: #fff;
+    background-color: #F28D35;
+    border-color: #F28D35;
+}
+
 @media (max-width: 480px) {
     iframe {
         width:320px;
