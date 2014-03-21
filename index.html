@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body ng-controller="HackerStuff">
     <div id="page">
 
       <header id="header" class="site-header">
@@ -131,66 +131,24 @@
         
         <section id="schedule" class="section section-center section-pricing">
             <div class="container">
-                <h2 class="section-title"><span>Schedule for April 11th to 13th</span></h2>
+                <h2 class="section-title"><span>Schedule for {{hack.info.dates}}</span></h2>
                 <div class="pricing-table">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel panel-primary">
-                                <header class="panel-heading">
-                                    <h1>Friday</h1>
-                                    <div class="the-price"><span>April 11th</span></div>
-                                </header>
-                                <div class="panel-body">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr><td>6:30 PM - Registration</td></tr>
-                                            <tr class="active"><td>7:00 PM - Welcome</td></tr>
-                                            <tr><td>7:10PM - Keynote</td></tr>
-                                            <tr class="active"><td>7:30 PM - Platforms</td></tr>
-                                            <tr><td>8:00 PM - Ideas</td></tr>
-                                            <tr class="active"><td>8:30 PM - Team Building</td></tr>
-                                            <tr><td><strong>10:00 PM - Hack Clock Starts!</strong></td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                      <div ng-repeat="schedule in hack.schedule" class="col-md-4 col-sm-6">
+                        <div class="panel panel-primary">
+                          <header class="panel-heading">
+                            <h1>{{schedule.day.name}}</h1>
+                            <div class="the-price"><span>{{schedule.day.month}} {{schedule.day.num}}{{schedule.day.suffix}}</span></div>
+                          </header>
+                          <div class="panel-body">
+                            <table class="table">
+                              <tbody>
+                              <tr ng-repeat="detail in schedule.timeline" ng-class-even="'active'"><td>{{detail.when}} - {{detail.what}}</td></tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel panel-primary">
-                                <header class="panel-heading">
-                                    <h1>Saturday</h1>
-                                    <div class="the-price">April 12th</span></div>
-                                </header>
-                                <div class="panel-body">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr><td>9:30 AM - Breakfast</td></tr>
-                                            <tr class="active"><td>12:00 PM - Lunch</td></tr>
-                                            <tr><td>6:00 PM - Dinner</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="panel panel-primary">
-                                <header class="panel-heading">
-                                    <h1>Sunday</h1>
-                                    <div class="the-price">April 13th</span></div>
-                                </header>
-                                <div class="panel-body">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr><td>10:30 AM - Breakfast</td></tr>
-                                            <tr class="active"><td>2:00 PM - Lunch</td></tr>
-                                            <tr><td>4:00 PM - Presentations</td></tr>
-                                            <tr class="active"><td>5:00 PM - Hacker Prizes</td></tr>
-                                            <tr><td>6:00 PM - After Party</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -198,20 +156,22 @@
 
         <section id="sponsors" class="section section-hilite">
           <div class="container">
-            <h2 class="section-title"><span>Our Sponsors</span></h2>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <a href="http://lehighvalleytech.org" target="_blank">
-                <img src="http://hack.lehighvalleytech.org/images/logos/lvtech.png" alt="lvtech" width="272" height="73"></a>
+            <div ng-repeat="level in hack.sponsors" ng-show="level.members">
+              <h2 class="section-title" ng-show="level.members"><span>{{level.title}} Sponsors</span></h2>
+              <div class="row">
+                <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="col-sm-{{level.span}} {{offset(index, level.members.length, level.span)}}" >
+                  <a href="{{sponsor.url}}" target="_blank"><img style="max-height: 100%;" src=".{{sponsor.logo}}" /></a>
+                </div>
               </div>
             </div>
+
             <div class="row">
               <div class="col-sm-12 col-md-12">
-              <br><br>
                 <a target="_blank" href="https://docs.google.com/document/d/1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ/export?format=pdf&id=1TvdZU7ONtb7sWMEpoWms2Aqem69sU6VQSYYimD6fNvQ&token=AC4w5Vge2gx2wD6yapZroV6IbKM2TwYSUQ%3A1362715128072"
                    class="btn btn-lg btn-danger">Interested in becoming a Sponsor?</a>
               </div>
             </div>
+          </div>
         </section>
         
       </main>
@@ -239,11 +199,13 @@
     </div>
 
     <div class="scroll-to-top" data-spy="affix" data-offset-top="200"><a href="#page" class="smooth-scroll"><i class="fa fa-arrow-up"></i></a></div>
-  
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js?v=1.5.26"></script>
     <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>

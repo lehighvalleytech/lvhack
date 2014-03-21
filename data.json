@@ -1,14 +1,20 @@
 {
     "hack": {
         "ticket" :{
-            "url": "http://www.eventbrite.com/e/lvhack-2014-tickets-5749663398"
+            "url": "http://lvhack2013.eventbrite.com/"
         },
         "info": {
             "dates": "April 11th - 13th"
         },
         "schedule": [
             {
-                "day": "Friday, April 11th",
+                "day": {
+                    "full"   : "Friday, April 11th",
+                    "name"   : "Friday",
+                    "month"  : "April",
+                    "num"    : "11",
+                    "suffix" : "th"
+                },
                 "timeline": [
                     {
                         "when": "6:30 PM",
@@ -41,7 +47,13 @@
                 ]
             },
             {
-                "day": "Saturday, April 12th",
+                "day": {
+                    "full"   : "Saturday, April 12th",
+                    "name"   : "Saturday",
+                    "month"  : "April",
+                    "num"    : "12",
+                    "suffix" : "th"
+                },
                 "timeline": [
                     {
                         "when": "9:30 AM",
@@ -58,14 +70,20 @@
                 ]
             },
             {
-                "day": "Sunday, April 13th",
+                "day": {
+                    "full"   : "Sunday, April 13th",
+                    "name"   : "Sunday",
+                    "month"  : "April",
+                    "num"    : "13",
+                    "suffix" : "th"
+                },
                 "timeline": [
                     {
                         "when": "10:30 AM",
                         "what": "Breakfast"
                     },
                     {
-                        "when": "2:00 PM",
+                        "when": "1:00 PM",
                         "what": "Lunch"
                     },
                     {
@@ -104,15 +122,18 @@
             {
                 "title": "Promoter",
                 "span": 4,
-                "height": "150px",
-                "members": [
-                ]                
+                "height": "150px"
             },
             {
                 "title": "Platform",
-                "span": 3,
+                "span": 4,
                 "height": "100px",
-                "xmembers": [
+                "members": [
+                    {
+                        "title": "Liquid Interactive",
+                        "url": "http://www.liquidint.com/",
+                        "logo": "/logos/liquid.png"
+                    }
                 ]
             },
             {
@@ -120,6 +141,11 @@
                 "span": 2,
                 "height": "50px",
                 "members": [
+                    {
+                        "title": "GitHub",
+                        "url": "http://github.com",
+                        "logo": "/logos/github.png"
+                    }
                 ]
             },
             {
@@ -136,7 +162,7 @@
                         "title": "LVTRadio",
                         "url": "http://radio.lehighvalleytech.org",
                         "logo": "/logos/lvtradio.png"
-                    },
+                    }
                 ]
             }
         ]
