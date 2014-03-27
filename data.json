@@ -43,6 +43,10 @@
                     {
                         "when": "10:00 PM",
                         "what": "Hack Clock Starts"
+                    },
+                    {
+                        "when": "12:00 AM",
+                        "what": "Venue Closes"
                     }
                 ]
             },
@@ -66,6 +70,10 @@
                     {
                         "when": "6:00 PM",
                         "what": "Dinner"
+                    },
+                    {
+                        "when": "12:00 AM",
+                        "what": "Venue Closes"
                     }
                 ]
             },
