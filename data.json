@@ -130,7 +130,14 @@
             {
                 "title": "Promoter",
                 "span": 4,
-                "height": "150px"
+                "height": "200px",
+                "members": [
+                    {
+                        "title": "iNetU",
+                        "url": "http://www.inetu.net/",
+                        "logo": "/logos/inetu.png"
+                    }
+                ]
             },
             {
                 "title": "Platform",
@@ -141,7 +148,18 @@
                         "title": "Liquid Interactive",
                         "url": "http://www.liquidint.com/",
                         "logo": "/logos/liquid.png"
+                    },
+                    {
+                        "title": "Weather Trends",
+                        "url": "http://www.wxtrends.com/wt360-consumer-solutions/",
+                        "logo": "/logos/wxtrends.png"
+                    },
+                    {
+                        "title": "LVEDC",
+                        "url": "http://www.lehighvalley.org/",
+                        "logo": "/logos/lvedc.png"
                     }
+
                 ]
             },
             {
