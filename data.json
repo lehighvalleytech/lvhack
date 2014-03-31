@@ -185,6 +185,11 @@
                         "logo": "/logos/nextplex.png"
                     },
                     {
+                        "title": "Tweetwall",
+                        "url": "https://tweetwall.com/",
+                        "logo": "/logos/tweetwall.png"
+                    },
+                    {
                         "title": "LVTRadio",
                         "url": "http://radio.lehighvalleytech.org",
                         "logo": "/logos/lvtradio.png"
