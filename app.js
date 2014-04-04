@@ -5,7 +5,9 @@ function HackerStuff($scope, $http) {
   });
   
   $scope.offset = function(index, total, span){
-	if((total*span - ((index+1)*span)) > 12){
+    var lines = Math.ceil(total*span/12);
+    var line  = Math.ceil(((index+1)*span)/12);
+	if(line < lines){
 	  return; //not last line
 	}
 	
@@ -20,6 +22,6 @@ function HackerStuff($scope, $http) {
 	  return;
 	}
 	
-	return 'col-sm-offset-'+Math.round((12-(empty*span))/2);
+	return 'col-md-offset-'+Math.round((12-(empty*span))/2);
   };
 }

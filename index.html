@@ -147,7 +147,7 @@
             <div ng-repeat="level in hack.sponsors" ng-show="level.members">
               <h2 class="section-title" ng-show="false"><span>{{level.title}} Sponsors</span></h2>
               <div class="row">
-                <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="col-sm-{{level.span}} {{offset(index, level.members.length, level.span)}}" >
+                <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="col-md-{{level.span}} {{offset(index, level.members.length, level.span)}}" >
                   <a href="{{sponsor.url}}" target="_blank"><img style="max-height: 100%;" src=".{{sponsor.logo}}" /></a>
                 </div>
               </div>
