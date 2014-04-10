@@ -160,6 +160,10 @@
                         "logo": "/logos/postmark.png"
                     },
                     {
+                        "title": "Nexmo",
+                        "url": "https://nexmo.com/",
+                        "logo": "/logos/nexmo.png"
+                    },                    {
                         "title": "LVEDC",
                         "url": "http://www.lehighvalley.org/",
                         "logo": "/logos/lvedc.png"
