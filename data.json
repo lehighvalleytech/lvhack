@@ -60,15 +60,15 @@
                 },
                 "timeline": [
                     {
-                        "when": "9:30 AM",
+                        "when": "9:00 AM",
                         "what": "Breakfast"
                     },
                     {
-                        "when": "12:00 PM",
+                        "when": "1:00 PM",
                         "what": "Lunch"
                     },
                     {
-                        "when": "6:00 PM",
+                        "when": "7:30 PM",
                         "what": "Dinner"
                     },
                     {
@@ -87,7 +87,7 @@
                 },
                 "timeline": [
                     {
-                        "when": "10:30 AM",
+                        "when": "9:00 AM",
                         "what": "Breakfast"
                     },
                     {
@@ -175,6 +175,11 @@
                         "title": "GitHub",
                         "url": "http://github.com",
                         "logo": "/logos/github.png"
+                    },
+                    {
+                        "title": "EcoTech",
+                        "url": "http://ecotechmarine.com",
+                        "logo": "/logos/ecotech.png"
                     }
                 ]
             },
