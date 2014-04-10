@@ -72,6 +72,10 @@
                         "what": "Dinner"
                     },
                     {
+                        "when": "9:00 PM",
+                        "what": "Guess"
+                    },
+                    {
                         "when": "12:00 AM",
                         "what": "Venue Closes"
                     }
