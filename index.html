@@ -63,24 +63,12 @@
             <div class="item active" style="background: url(http://hack.lehighvalleytech.org/images/lvpasw2012-panorama.jpg) no-repeat;">
               <div class="container">
                 <img src="http://hack.lehighvalleytech.org/images/lvhack-robot.png">
-                <h1>Pitch, Team, Hack</h1>
+                <h1>Pitch It, Hack It, Show It</h1>
               </div>
             </div>
-            <!--
-            <div class="item" style="background: url(http://hack.lehighvalleytech.org/images/bg-2.jpg);">
-              <div class="container"><img src="http://placehold.it/640x340" alt="Second slide"></div>
-            </div>
-            <div class="item" style="background: url(http://hack.lehighvalleytech.org/images/bg-3.jpg);">
-              <div class="container"><img src="http://placehold.it/640x340" alt="Third slide"></div>
-            </div>
-            -->
-          </div>
-          <!--
-          <a class="left carousel-control" href="#carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
-          <a class="right carousel-control" href="#carousel-1" data-slide="next"><span class="fa fa-chevron-right"></span></a>
-          -->
-        </section>
 
+          </div>
+        </section>
         <section id="home" class="section section-center section-cta">
           <div class="container">
             <h2 class="section-title"><span>One amazing weekend to build exciting, interesting, and innovative things.</span></h2>
@@ -102,11 +90,11 @@
             
              <div class="col-md-4 col-sm-6">
                 <div class="icon-wrap"><img src="http://hack.lehighvalleytech.org/images/3dprinter.png" alt=""></div>
-                <h4>Pitch, Team, and Hack</h4>
+                <h4>Pitch It, Hack It, Show It</h4>
                 <p>Anyone is welcome to 
                 pitch their project idea and receive feedback from their peers. Teams organically
                 form around the top ideas and then it’s a 54 hour
-                frenzy of designing, coding, and hacking.The weekends culminate with presentations and prizes!</p>
+                frenzy of designing, coding, and hacking. The weekend culminates with presentations and prizes!</p>
               </div>
 
               <div class="col-md-4 col-sm-6">
@@ -159,9 +147,9 @@
         <section id="sponsors" class="section section-hilite">
           <div class="container">
             <div ng-repeat="level in hack.sponsors" ng-show="level.members">
-              <h2 class="section-title" ng-show="level.members"><span>{{level.title}} Sponsors</span></h2>
+              <h2 class="section-title" ng-show="false"><span>{{level.title}} Sponsors</span></h2>
               <div class="row">
-                <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="col-sm-{{level.span}} {{offset(index, level.members.length, level.span)}}" >
+                <div style="height: {{level.height}};"  ng-repeat="(index, sponsor) in level.members" class="col-md-{{level.span}} {{offset(index, level.members.length, level.span)}}" >
                   <a href="{{sponsor.url}}" target="_blank"><img style="max-height: 100%;" src=".{{sponsor.logo}}" /></a>
                 </div>
               </div>
@@ -209,5 +197,16 @@
     <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="app.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-29148247-2', 'lehighvalleytech.org');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
