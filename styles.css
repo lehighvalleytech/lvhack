@@ -83,6 +83,7 @@ a  {
         width:320px;
     }
     #carousel-1 h1 {
+        margin: 140px 0 10px 0;
         font-size: 2.5em;
     }
     #carousel-1 h2 {
