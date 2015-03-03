@@ -4,15 +4,15 @@
             "url": "http://lvhack2013.eventbrite.com/"
         },
         "info": {
-            "dates": "April 11th - 13th"
+            "dates": "April 10th - 12th"
         },
         "schedule": [
             {
                 "day": {
-                    "full"   : "Friday, April 11th",
+                    "full"   : "Friday, April 10th",
                     "name"   : "Friday",
                     "month"  : "April",
-                    "num"    : "11",
+                    "num"    : "10",
                     "suffix" : "th"
                 },
                 "timeline": [
@@ -52,10 +52,10 @@
             },
             {
                 "day": {
-                    "full"   : "Saturday, April 12th",
+                    "full"   : "Saturday, April 11th",
                     "name"   : "Saturday",
                     "month"  : "April",
-                    "num"    : "12",
+                    "num"    : "11",
                     "suffix" : "th"
                 },
                 "timeline": [
@@ -83,10 +83,10 @@
             },
             {
                 "day": {
-                    "full"   : "Sunday, April 13th",
+                    "full"   : "Sunday, April 12th",
                     "name"   : "Sunday",
                     "month"  : "April",
-                    "num"    : "13",
+                    "num"    : "12",
                     "suffix" : "th"
                 },
                 "timeline": [
@@ -135,83 +135,25 @@
                 "title": "Promoter",
                 "span": 4,
                 "height": "200px",
-                "members": [
-                    {
-                        "title": "iNetU",
-                        "url": "http://www.inetu.net/",
-                        "logo": "/logos/inetu.png"
-                    }
-                ]
+                "members": []
             },
             {
                 "title": "Platform",
                 "span": 4,
                 "height": "100px",
-                "members": [
-                    {
-                        "title": "Liquid Interactive",
-                        "url": "http://www.liquidint.com/",
-                        "logo": "/logos/liquid.png"
-                    },
-                    {
-                        "title": "Weather Trends",
-                        "url": "http://www.wxtrends.com/wt360-consumer-solutions/",
-                        "logo": "/logos/wxtrends.png"
-                    },
-                    {
-                        "title": "Postmark",
-                        "url": "https://postmarkapp.com/",
-                        "logo": "/logos/postmark.png"
-                    },
-                    {
-                        "title": "Nexmo",
-                        "url": "https://nexmo.com/",
-                        "logo": "/logos/nexmo.png"
-                    },                    {
-                        "title": "LVEDC",
-                        "url": "http://www.lehighvalley.org/",
-                        "logo": "/logos/lvedc.png"
-                    }
-                ]
+                "members": []
             },
             {
                 "title": "Prize",
                 "span": 2,
                 "height": "50px",
-                "members": [
-                    {
-                        "title": "GitHub",
-                        "url": "http://github.com",
-                        "logo": "/logos/github.png"
-                    },
-                    {
-                        "title": "EcoTech",
-                        "url": "http://ecotechmarine.com",
-                        "logo": "/logos/ecotech.png"
-                    }
-                ]
+                "members": []
             },
             {
                 "title": "Media",
                 "height": "50px",
                 "span": 2,
-                "members": [
-                    {
-                        "title": "NextPlex",
-                        "url": "http://nextplex.com/lehigh-valley-pa/",
-                        "logo": "/logos/nextplex.png"
-                    },
-                    {
-                        "title": "Tweetwall",
-                        "url": "https://tweetwall.com/",
-                        "logo": "/logos/tweetwall.png"
-                    },
-                    {
-                        "title": "LVTRadio",
-                        "url": "http://radio.lehighvalleytech.org",
-                        "logo": "/logos/lvtradio.png"
-                    }
-                ]
+                "members": []
             }
         ]
     }
