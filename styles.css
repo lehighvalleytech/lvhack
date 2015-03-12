@@ -7,20 +7,33 @@ iframe {
 }
 
 .carousel .container {
- 
+    margin-top: 40px;
+    text-align: center;
 }
 
 #carousel-1 h1 {
     color:#fff;
     text-shadow: 0px 2px 0px black;
-    margin: 180px 0 10px 0;
-    font-size: 3em;
 }
 
 #carousel-1 h2 {
     color:#fff;
     text-shadow: 0px 2px 0px black;
-    margin: 20px 0 10px 0;
+}
+
+iframe {
+    width:320px;
+}
+
+#carousel-1 h1 {
+    margin: 40px 0 10px 0;
+    font-size: 2.5em;
+}
+#carousel-1 h2 {
+    font-size: 2em;
+}
+.featured-robot {
+    display: none;
 }
 
 .site-navbar .navbar-brand i,
@@ -78,15 +91,37 @@ a  {
     border-color: #F28D35;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 500px) {  
     iframe {
-        width:320px;
+        width:500px;
     }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
     #carousel-1 h1 {
-        margin: 140px 0 10px 0;
-        font-size: 2.5em;
+        margin: 40px 0 10px 0;
+        font-size: 3em;
     }
+
     #carousel-1 h2 {
-        font-size: 2em;
+        margin: 20px 0 40px 0;
     }
+    .featured-robot {
+        display: inline-block;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1000px) {
+
 }
