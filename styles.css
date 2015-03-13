@@ -91,6 +91,14 @@ a  {
     border-color: #F28D35;
 }
 
+.section.section-hilite {
+    background-color:##FDFDFD;
+}
+
+.section.section-hilite .section-title span {
+    background-color:##FDFDFD;
+}
+
 @media (min-width: 500px) {  
     iframe {
         width:500px;
