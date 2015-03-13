@@ -1,7 +1,10 @@
 function HackerStuff($scope, $http) {
   $http.get('./data.json').success(function(data) {
     $scope.hack = data.hack;
-    console.log(data.hack);
+  });
+
+  $http.get('http://api.lehighvalleytech.org/lvhack15/').success(function(data){
+    $scope.progress = data;
   });
   
   $scope.offset = function(index, total, span){
