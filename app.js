@@ -4,7 +4,36 @@ function HackerStuff($scope, $http) {
   });
 
   $http.get('http://api.lehighvalleytech.org/lvhack15/').success(function(data){
-    $scope.progress = data;
+    //fun math stuff, to make a stacked progress bar
+	  var progress = [];
+
+	  if(data.ticket.progress > data.money.progress){
+		  progress.push({
+			  type: 'money',
+			  value: data.money.progress,
+			  class: 'progress-bar-warning'
+		  });
+
+		  progress.push({
+			  type: 'ticket',
+			  value: data.ticket.progress - data.money.progress,
+			  class: 'progress-bar-info'
+		  });
+	  } else {
+		  progress.push({
+			  type: 'ticket',
+			  value: data.ticket.progress,
+			  class: 'progress-bar-info'
+		  });
+
+		  progress.push({
+			  type: 'money',
+			  value: data.money.progress - data.ticket.progress,
+			  class: 'progress-bar-warning'
+		  });
+	  }
+
+	  $scope.progress = progress;
   });
   
   $scope.offset = function(index, total, span){

@@ -95,12 +95,8 @@
 
                 <div class="progress">
 
-                  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style="width: {{(progress.ticket.progress/2)}}%">
-                    <span class="sr-only">{{progress.ticket.progress}}% Funded</span>
-                  </div>
-
-                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: {{(progress.money.progress/2)}}%">
-                    <span class="sr-only">{{progress.money.progress}}% Funded</span>
+                  <div ng-repeat="goal in progress" class="progress-bar {{goal.class}} progress-bar-striped active" role="progressbar" style="width: {{goal.value}}%">
+                    <span class="sr-only">{{goal.value}}%</span>
                   </div>
 
 
@@ -112,9 +108,9 @@
                 </p>
                 <p>
 
-                    We are able to do this with support of our LV Tech members who by tickets and participate (making
+                    We are able to do this with support of our LV Tech members who buy <span class="label label-info">tickets</span> and participate (making
                     #lvhack an awesome hackathon) and also with the help of local and national companies and non-profit
-                    organizations as sponsors (keeping tickets affordable).
+                    organizations as <span class="label label-warning">sponsors</span> (keeping tickets affordable).
                 </p>
 
                 <br>
