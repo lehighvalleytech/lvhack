@@ -45,7 +45,7 @@
                         "what": "Hack Clock Starts"
                     },
                     {
-                        "when": "12:00 AM",
+                        "when": "11:00 PM",
                         "what": "Venue Closes"
                     }
                 ]
@@ -76,7 +76,7 @@
                         "what": "Guess"
                     },
                     {
-                        "when": "12:00 AM",
+                        "when": "11:00 PM",
                         "what": "Venue Closes"
                     }
                 ]
@@ -135,13 +135,35 @@
                 "title": "Promoter",
                 "span": 4,
                 "height": "200px",
-                "members": []
+                "members": [
+                    {
+                        "title": "iNetU",
+                        "url": "http://www.inetu.net/",
+                        "logo": "/logos/inetu.png"
+                    },
+                    {
+                        "title": "LVEDC",
+                        "url": "http://www.lehighvalley.org/",
+                        "logo": "/logos/lvedc.png"
+                    }
+                ]
             },
             {
                 "title": "Platform",
                 "span": 4,
                 "height": "100px",
-                "members": []
+                "members": [
+                    {
+                        "title": "Nexmo",
+                        "url": "https://nexmo.com/",
+                        "logo": "/logos/nexmo.png"
+                    },
+                    {
+                        "title": "Baker Institute",
+                        "url": "https://baker.sites.lehigh.edu/",
+                        "logo": "/logos/baker.png"
+                    }
+                ]
             },
             {
                 "title": "Prize",
@@ -153,7 +175,23 @@
                 "title": "Media",
                 "height": "50px",
                 "span": 2,
-                "members": []
+                "members": [
+                    {
+                        "title": "NextPlex",
+                        "url": "http://nextplex.com/lehigh-valley-pa/",
+                        "logo": "/logos/nextplex.png"
+                    },
+                    {
+                        "title": "Tweetwall",
+                        "url": "https://tweetwall.com/",
+                        "logo": "/logos/tweetwall.png"
+                    },
+                    {
+                        "title": "LVTRadio",
+                        "url": "http://radio.lehighvalleytech.org",
+                        "logo": "/logos/lvtradio.png"
+                    }
+                ]
             }
         ]
     }
