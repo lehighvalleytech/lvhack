@@ -7,6 +7,14 @@ function HackerStuff($scope, $http) {
     //fun math stuff, to make a stacked progress bar
 	  var progress = [];
 
+	  if(data.ticket.progress > 100){
+		  data.ticket.progress = 100;
+	  }
+
+	  if(data.money.progress > 100){
+		  data.money.progress = 100;
+	  }
+
 	  if(data.ticket.progress > data.money.progress){
 		  progress.push({
 			  type: 'money',
@@ -34,6 +42,7 @@ function HackerStuff($scope, $http) {
 	  }
 
 	  $scope.progress = progress;
+	  console.log(progress);
   });
   
   $scope.offset = function(index, total, span){
