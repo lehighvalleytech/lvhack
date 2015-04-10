@@ -128,30 +128,37 @@
             },
             {
                 "title": "Premire",
-                "height": "150px",
-                "span": 4
-            },
-            {
-                "title": "Promoter",
-                "span": 4,
                 "height": "200px",
+                "span": 4,
                 "members": [
                     {
                         "title": "iNetU",
                         "url": "http://www.inetu.net/",
                         "logo": "/logos/inetu.png"
-                    },
+                    }
+                ]
+            },
+            {
+                "title": "Promoter",
+                "span": 4,
+                "height": "150px",
+                "members": [
                     {
                         "title": "LVEDC",
                         "url": "http://www.lehighvalley.org/",
                         "logo": "/logos/lvedc.png"
+                    },
+                    {
+                        "title": "Merck",
+                        "url": "http://www.merck.com/",
+                        "logo": "/logos/merck.jpg"
                     }
                 ]
             },
             {
                 "title": "Platform",
                 "span": 4,
-                "height": "100px",
+                "height": "75px",
                 "members": [
                     {
                         "title": "Nexmo",
@@ -162,6 +169,11 @@
                         "title": "Baker Institute",
                         "url": "https://baker.sites.lehigh.edu/",
                         "logo": "/logos/baker.png"
+                    },
+                    {
+                        "title": "GitHub",
+                        "url": "http://github.com",
+                        "logo": "/logos/github.png"
                     }
                 ]
             },
